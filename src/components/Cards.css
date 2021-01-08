@@ -3,8 +3,12 @@
   background: #fff; 
 }
 
-h1 {
+.subheading {
   text-align: center;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .cards_container {
@@ -15,17 +19,19 @@ h1 {
 .cards_wrapper {
   position: relative;
   margin: 50px 0 45px;
+  max-width: 1120px;
 }
 
 .cards__items {
   margin-bottom: 24px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cards__item {
   display: flex;
-  margin: 0 1rem;
+  margin: 0.5rem 0.5rem;
   border-radius: 10px;
 }
 
@@ -47,22 +53,19 @@ h1 {
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-}
 
 .cards__item_img {
   width: 350px;
   display: block;
   height: 500px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 }
 
 .cards__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
-  margin-left: 10px;
+  right: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
@@ -72,32 +75,17 @@ h1 {
   box-sizing: border-box;
 }
 
-.cards__item__img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  transition: all 0.2s linear;
+.cards__item_img:hover {
+  filter: grayscale(1); 
 }
 
-.cards__item__img:hover {
-  transform: scale(1.1);
-}
-
-.cards__item__info {
-  padding: 20px 30px 30px;
+.cards__item_info {
+  padding: 10px 20px;
 }
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
 }
 
