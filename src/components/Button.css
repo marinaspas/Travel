@@ -20,6 +20,14 @@
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
+.btn--secondary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+.btn--secondary:hover {
+  border: 1px solid rgb(190, 193, 193);
+}
 .btn--medium {
   padding: 8px 20px;
   font-size: 20px;
@@ -27,6 +35,10 @@
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
+}
+.btn--small {
+  padding: 5px 15px;
+  font-size: 16px;
 }
 .btn--medium:hover,
 .btn--large:hover {
