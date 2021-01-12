@@ -1,4 +1,32 @@
 .instafeed_wrapper {
   background: url('../assets/bg_pattern.png') repeat;
-  height: 100px;
+  min-height: 334px;
+  display: flex;
+  justify-content: center;
+}
+.instafeed_container {
+  padding-top: 35px;
+}
+.instafeed_list {
+  list-style: none;
+  display: flex;
+  border: 2px solid #fff;
+  line-height: 12px;
+  padding: 5px;
+}
+.instafeed__item {
+  margin-right: 5px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+.instafeed__item:hover {
+  cursor: pointer;
+  filter:grayscale(1);
+}
+.instafeed__item:last-child {
+  margin-right: 0;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
