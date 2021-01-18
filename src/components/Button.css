@@ -20,6 +20,16 @@
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
+.btn-dark--outline {
+  border: 1px solid #a6a4a4;
+  background-color: #fff;
+}
+.btn-dark--outline:hover {
+  border: 1px solid #fff;
+  background-color: #242424;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
 .btn--secondary {
   background-color: var(--primary);
   color: #242424;

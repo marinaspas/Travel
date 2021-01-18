@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from "../Cards";
+import Tours from "../Tours";
 import Instafeed from "../Instafeed";
 
 function Home () {
@@ -9,6 +10,7 @@ function Home () {
     <>
       <HeroSection />
       <Cards />
+      <Tours />
       <Instafeed />
     </>
   )

@@ -1,0 +1,22 @@
+.tours__wrapper {
+  background-color: #fff;
+}
+.tours__content {
+  display: flex;
+  max-width: 1120px;
+}
+.tours__content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.tours__wrapper .container {
+  padding: 50px 0;
+}
+.tours__pic {
+  display: block;
+  margin-right: 40px;
+  border: 6px solid #333;
+  height: 250px;
+  width: 376px;
+}
