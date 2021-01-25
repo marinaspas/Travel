@@ -1,19 +1,19 @@
-import React from 'react';
-import '../../App.css';
-import HeroSection from '../HeroSection';
+import React from "react";
+import "../../App.css";
+import HeroSection from "../HeroSection";
 import Cards from "../Cards";
 import Tours from "../Tours";
 import Instafeed from "../Instafeed";
 
-function Home () {
+function Home() {
   return (
     <>
       <HeroSection />
-      <Cards />
+      {/* <Cards /> */}
       <Tours />
-      <Instafeed />
+      {/*<Instafeed /> */}
     </>
-  )
+  );
 }
 
 export default Home;

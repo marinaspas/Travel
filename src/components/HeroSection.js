@@ -1,24 +1,38 @@
-import React from 'react';
-import { Button } from './Button';
-import '../App.css';
-import './HeroSection.css';
+import React from "react";
+import { Button } from "./Button";
+import "../App.css";
+import "./HeroSection.css";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/hero-video.mp4" autoPlay loop muted />
+      <video
+        src="/videos/hero-video.mp4"
+        autoPlay
+        loop
+        muted
+        className="hero-video"
+      />
       <h1>ADVENTURE AWAITS</h1>
       <p>what are you waiting for?</p>
       <div className="hero-btns">
-        <Button className="btns" buttonStyle='btn--outline' buttonSize="btn--large">
+        <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
           GET STARTED
         </Button>
-        <Button className="btns" buttonStyle='btn--outline' buttonSize="btn--large">
-          WATCH TRAILER <i className="far fa-play-circle"/>
+        <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
+          WATCH TRAILER <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;

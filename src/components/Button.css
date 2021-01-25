@@ -25,7 +25,7 @@
   background-color: #fff;
 }
 .btn-dark--outline:hover {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   background-color: #242424;
   color: #fff;
   transition: all 0.3s ease-out;

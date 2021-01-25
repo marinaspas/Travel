@@ -20,3 +20,23 @@
   height: 250px;
   width: 376px;
 }
+@media screen and (max-width: 768px) {
+  .tours__content {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .tours__content > div {
+    padding: 0 15px;
+  }
+  .tours__wrapper .container {
+    padding: 25px 0;
+  }
+  .tours__pic {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    height: auto;
+  }
+  .subheading {
+    font-size: 24px;
+  }
+}

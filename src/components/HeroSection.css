@@ -11,9 +11,9 @@ video {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
 .hero-container > h1 {
@@ -25,7 +25,8 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .hero-btns {
   margin-top: 32px;
@@ -33,23 +34,51 @@ video {
 .hero-btns .btn {
   margin: 6px;
 }
-
+/* landscape Ipad styles */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .hero-container {
+    background: url("../assets/sf-girl.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .hero-video {
+    display: none;
+  }
+  .hero-container > h1 {
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    font-size: 70px;
+    font-size: 50px;
     /* margin-top: -150px; */
   }
 }
 @media screen and (max-width: 768px) {
   .hero-container {
+    background: url("../assets/sf-girl.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .hero-video {
+    display: none;
   }
   .hero-container > h1 {
-    font-size: 50px;
+    font-size: 35px;
     margin-top: 50px;
+    text-align: center;
+    padding: 0 10px;
   }
   .hero-container > p {
-    font-size: 30px;
+    font-size: 25px;
   }
   .btn-mobile {
     display: block;
@@ -59,3 +88,9 @@ video {
     width: 100%;
   }
 }
+
+/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .hero-container {
+    height: 100%;
+  }
+} */
