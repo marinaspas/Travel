@@ -58,7 +58,7 @@ video {
     /* margin-top: -150px; */
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .hero-container {
     background: url("../assets/sf-girl.png");
     background-position: center;
