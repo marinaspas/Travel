@@ -5,13 +5,17 @@ import { Button } from "./Button";
 function Tours() {
   return (
     <div className="tours__wrapper">
-      <h2 class="subheading">The best adventures start with Tours</h2>
+      <h2 className="subheading">
+        The best adventures start with Discovery Tours
+      </h2>
       <div className="container">
         <div className="tours__content">
           <img
             src="images/tours_pic.jpg"
+            srcSet="images/tours_pic.jpg 376w,
+                    images/tours_pic2x.jpg 752w"
             alt="people having a camel tour in a desert"
-            class="tours__pic"
+            className="tours__pic"
           />
           <div>
             <p>

@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="footer_link">
               <span className="footer-social-link">
-                <i class="fab fa-snapchat-square"></i>
+                <i className="fab fa-snapchat-square"></i>
               </span>
             </li>
           </ul>

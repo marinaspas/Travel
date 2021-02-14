@@ -5,13 +5,14 @@ import Cards from "../Cards";
 import Tours from "../Tours";
 import Instafeed from "../Instafeed";
 
+console.log("davor");
 function Home() {
   return (
     <>
       <HeroSection />
-      {/* <Cards /> */}
+      <Cards />
       <Tours />
-      {/*<Instafeed /> */}
+      <Instafeed />
     </>
   );
 }

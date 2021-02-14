@@ -52,10 +52,16 @@ video {
     font-size: 50px;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 640px) {
   .hero-container > h1 {
     font-size: 50px;
-    /* margin-top: -150px; */
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+    width: 50vw;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -80,17 +86,8 @@ video {
   .hero-container > p {
     font-size: 25px;
   }
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
   .btn {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }
-
-/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .hero-container {
-    height: 100%;
-  }
-} */
