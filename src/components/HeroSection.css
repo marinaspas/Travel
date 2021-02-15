@@ -56,13 +56,6 @@ video {
   .hero-container > h1 {
     font-size: 50px;
   }
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
-    width: 50vw;
-    margin: 0 auto;
-  }
 }
 @media screen and (max-width: 1023px) {
   .hero-container {
@@ -89,5 +82,12 @@ video {
   .btn {
     display: block;
     margin: 0 auto;
+  }
+  .btn-mobile .btn {
+    width: 300px;
+  }
+
+  .btn-mobile {
+    text-decoration: none;
   }
 }

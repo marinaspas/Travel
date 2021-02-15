@@ -1,5 +1,5 @@
 .instafeed_wrapper {
-  background: url('../assets/bg_pattern.png') repeat;
+  background: url("../assets/bg_pattern.png") repeat;
   min-height: 334px;
   display: flex;
   justify-content: center;
@@ -16,11 +16,11 @@
 }
 .instafeed__item {
   margin-right: 5px;
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .instafeed__item:hover {
   cursor: pointer;
-  filter:grayscale(1);
+  filter: grayscale(1);
 }
 .instafeed__item:last-child {
   margin-right: 0;
@@ -29,4 +29,30 @@
   display: flex;
   justify-content: center;
   margin-top: 15px;
+}
+@media only screen and (max-width: 812px) {
+  .instafeed_list {
+    display: flex;
+    border: none;
+    padding: 0;
+    line-height: normal;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+  .instafeed__item {
+    margin-right: 0;
+  }
+  .instafeed_wrapper,
+  .instafeed_container,
+  .instafeed_list {
+    width: 100%;
+  }
+  .instafeed_list {
+    padding: 0;
+    border: none;
+  }
 }
