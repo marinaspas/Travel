@@ -36,9 +36,9 @@
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  /* height: 80px; 
-display: block;
-line-height: 65px; */
+  height: 80px;
+  display: block;
+  line-height: 60px;
 }
 .nav-links:hover {
   border-bottom: 4px solid #fff;

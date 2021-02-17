@@ -101,6 +101,12 @@
   .cards__item {
     margin-bottom: 2rem;
   }
+  .cards {
+    padding-bottom: 20px;
+  }
+  .cards_wrapper {
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width: 640px) {
   .cards {

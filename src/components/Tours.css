@@ -16,13 +16,13 @@
 .tours__pic {
   display: block;
   margin-right: 40px;
-  /* border: 6px solid #333; */
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
   .tours__content {
-    max-width: 100%;
+    max-width: none;
+    width: 100%;
     flex-direction: column;
   }
   .tours__content > div {
@@ -32,7 +32,7 @@
     padding: 25px 0;
   }
   .tours__pic {
-    margin: 0 auto 20px auto;
+    margin: 0 20px 20px 0;
     width: 100%;
   }
   .subheading {

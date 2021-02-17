@@ -7,7 +7,9 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div>
-          <div>Copyright &copy; {currentYear} Trvl | All Rights Reserved </div>
+          <p className="footer_legal">
+            Copyright &copy; {currentYear} Trvl | All Rights Reserved{" "}
+          </p>
           <nav>
             <ul className="footer__list lists">
               <li className="footer_link">home</li>
@@ -18,10 +20,10 @@ function Footer() {
               <li className="footer_link">contact</li>
             </ul>
           </nav>
-          <span>
+          <span className="footer_logo">
             <i className="fab fa-typo3"></i>
           </span>
-          <ul className="socal__list lists">
+          <ul className="social__list lists">
             <li className="footer_link">
               <span className="footer-social-link">
                 <i className="fab fa-twitter-square"></i>

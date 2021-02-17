@@ -15,7 +15,7 @@ function Tours() {
             srcSet="images/tours_pic.jpg 376w,
                     images/tours_pic2x.jpg 752w"
             sizes="(max-width: 600px) 480px,
-            600px"
+            480px"
             alt="people having a camel tour in a desert"
             className="tours__pic"
           />
