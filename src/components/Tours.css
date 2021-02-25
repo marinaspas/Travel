@@ -40,3 +40,13 @@
     padding: 0 10px;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Landscape layouts only */
+  .tours__text {
+    padding-right: 25px;
+  }
+  .tours__pic {
+    margin-right: 25px;
+    padding-left: 15px;
+  }
+}

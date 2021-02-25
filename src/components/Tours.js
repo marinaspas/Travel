@@ -19,7 +19,7 @@ function Tours() {
             alt="people having a camel tour in a desert"
             className="tours__pic"
           />
-          <div>
+          <div className="tours__text">
             <p>
               Travel with us. We create tours that focus on the connections
               between people and places. These tours are often based around an
