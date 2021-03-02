@@ -96,3 +96,11 @@
     display: block;
   }
 }
+@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+  .NavbarItems {
+    position: static;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}

@@ -1,25 +1,14 @@
 .about-hero {
   background: url("../../assets/about-bg.png");
   min-height: 70vh;
-}
-.page-hero {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.page-hero h1 {
-  font-size: 100px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
 }
 .intro {
   display: flex;
-  max-width: 70vw;
-  margin: 0 auto;
+  max-width: 1120px;
+  margin: 0 auto 50px auto;
 }
 .intro-text p {
   font-size: 17px;
@@ -32,7 +21,6 @@
 }
 .about-img {
   display: block;
-  width: 100%;
   height: auto;
 }
 @media screen and (max-width: 812px) {
@@ -48,13 +36,18 @@
     font-size: 50px;
   }
   .intro-text p {
-    padding: 10px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
   }
   .about-hero {
     min-height: 50vh;
   }
   .about .subheading {
     padding: 20px 15px;
+  }
+  .about-img {
+    margin: 0 auto;
+    max-height: 500px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {

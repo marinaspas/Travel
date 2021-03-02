@@ -1,0 +1,7 @@
+.faq-hero {
+  background: url("../../assets/faq-bg.jpg");
+  min-height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
