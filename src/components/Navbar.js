@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -15,9 +15,14 @@ class Navbar extends Component {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <Link to={item.url} className={item.cName}>
+                  <NavLink
+                    to={item.url}
+                    exact={item.url === "/"}
+                    className={item.cName}
+                    activeClassName="selected"
+                  >
                     {item.title}
-                  </Link>
+                  </NavLink>
                 </li>
               );
             })}
@@ -32,9 +37,9 @@ class Navbar extends Component {
               {MenuItems.map((item, index) => {
                 return (
                   <li key={index}>
-                    <Link to={item.url} className={item.cName}>
+                    <NavLink to={item.url} className={item.cName}>
                       {item.title}
-                    </Link>
+                    </NavLink>
                   </li>
                 );
               })}

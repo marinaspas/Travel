@@ -8,7 +8,9 @@ function Destinations() {
       <div className="page-hero destinations-hero">
         <h1>Destinations</h1>
       </div>
-      <p>yo</p>
+      <div className="destinations-wrapper">
+        <h2>Popular Destinations you need to visit</h2>
+      </div>
     </div>
   );
 }

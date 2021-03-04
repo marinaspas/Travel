@@ -40,7 +40,8 @@
   display: block;
   line-height: 60px;
 }
-.nav-links:hover {
+.nav-links:hover,
+.selected {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
