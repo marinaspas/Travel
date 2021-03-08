@@ -54,8 +54,8 @@ function Destinations() {
                 <div className="dest-card">
                   <p>{destination.continent}</p>
                   <ul>
-                    {Places.map((place, index) => {
-                      return <li>{place.country_name}</li>;
+                    {destination.country_name.map((place, index) => {
+                      return <li key={index}>{place}</li>;
                     })}
                   </ul>
                 </div>
