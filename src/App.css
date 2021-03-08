@@ -55,3 +55,14 @@
   justify-content: center;
   align-items: center;
 }
+.subheading {
+  text-align: center;
+  /* font-family: 'Dancing Script', cursive, sans-serif; */
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+}
