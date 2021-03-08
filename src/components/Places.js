@@ -33,7 +33,7 @@ export const Places = [
     ],
   },
   {
-    continent: "The Carribean",
+    continent: "The Caribbean",
     country_name: [
       "Aruba",
       "Bahamas",
