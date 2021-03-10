@@ -16,32 +16,32 @@ function Destinations() {
           <DestinationCard
             src="./images/destination-newyork.jpg"
             text="New York"
-            altText="New York"
+            alt="New York"
           />
           <DestinationCard
             src="./images/destination-paris.jpg"
             text="Paris"
-            altText="Paris"
+            alt="Paris"
           />
           <DestinationCard
             src="./images/destination-dubai.jpg"
             text="Dubai"
-            altText="Dubai"
+            alt="Dubai"
           />
           <DestinationCard
             src="./images/destination-london.jpg"
             text="London"
-            altText="London"
+            alt="London"
           />
           <DestinationCard
             src="./images/destination-kyoto.jpg"
             text="Kyoto"
-            altText="Kyoto"
+            alt="Kyoto"
           />
           <DestinationCard
             src="./images/destination-rome.jpg"
             text="Rome"
-            altText="Rome"
+            alt="Rome"
           />
         </ul>
       </div>

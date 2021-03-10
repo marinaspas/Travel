@@ -24,6 +24,20 @@
 .footer-social-link {
   font-size: 24px;
 }
+/* hover styles per social icon */
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+.fa-facebook-square:hover {
+  color: #1778f2;
+}
+.fa-youtube-square:hover {
+  color: #ff0000;
+}
+.fa-snapchat-square:hover {
+  color: #fffc00;
+}
+
 @media screen and (max-width: 812px) {
   .footer,
   .footer-content {
