@@ -11,7 +11,7 @@
 .destinations-wrapper h2 {
   text-align: center;
 }
-.destinations-list {
+.destination-card {
   display: flex;
   flex-wrap: wrap;
   max-width: 1100px;
@@ -21,18 +21,23 @@
 .dest-img {
   display: block;
   width: 350px;
+  height: 100%;
 }
 .dest-item {
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.dest-item:last-child {
-  margin-right: 0;
+.dest-item:hover {
+  filter: grayscale(1);
+  cursor: pointer;
 }
 .dest-item > div {
   position: relative;
   display: flex;
   justify-content: center;
+}
+.dest-item img {
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .dest-item-label {
   position: absolute;
@@ -46,9 +51,56 @@
   font-size: 17px;
 }
 .dest-card {
-  background: #e3dddb;
+  min-height: 370px;
+  padding: 0 40px;
 }
-
+.dest-list li:nth-child(3n) {
+  border-right: 0;
+}
+.dest-list li:nth-last-child(-n + 3) {
+  border-bottom: 0;
+}
+.dest-list {
+  background: #e3dddb;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-bottom: 50px;
+}
+.dest-list li {
+  border-right: 1px solid #b1adac;
+  border-bottom: 1px solid #b1adac;
+}
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.countries-list li {
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 22px;
+  color: #655e5b;
+  display: flex;
+  flex: 1 1 50%;
+  border: none;
+}
+.countries-list span:hover {
+  cursor: pointer;
+  color: #594173;
+  font-weight: bold;
+}
+.cont-name {
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-size: 35px;
+  color: #655e5b;
+  padding: 20px 0;
+}
+@media screen and (max-width: 750px) {
+  .dest-item {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 812px) {
   .destinations-hero {
     background: url("../../assets/destinations-mobile-bg.jpg");
@@ -57,13 +109,51 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .destination-card {
+    max-width: none;
+    justify-content: center;
+  }
+  .dest-item:nth-child(2n) {
+    margin-right: 0;
+  }
+  .dest-list {
+    grid-template-columns: repeat(1, auto);
+    margin-bottom: 0;
+  }
+  .dest-list li {
+    border-right: none;
+  }
+  .dest-card {
+    min-height: 0;
+  }
+  .countries-list li {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .countries-list {
+    padding-bottom: 20px;
+  }
 }
-@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .destinations-hero {
     background: url("../../assets/destinations-mobile-bg.jpg");
     min-height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .destination-card {
+    max-width: none;
+    justify-content: center;
+    display: flex;
+  }
+  .countries-list li {
+    font-size: 16px;
+    color: #655e5b;
+    padding: 10px 0;
+  }
+  .dest-list {
+    margin-bottom: 0;
   }
 }

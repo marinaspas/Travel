@@ -44,6 +44,10 @@ export const Places = [
     ],
   },
   {
+    continent: "Central America",
+    country_name: ["Belize", "Costa Rica", "Guatemala", "Honduras", "Panama"],
+  },
+  {
     continent: "Europe",
     country_name: [
       "Austria",
@@ -73,7 +77,7 @@ export const Places = [
   },
   {
     continent: "The Middle East",
-    country_name: ["Egypt", "Jordan", "Turkey", "Cuba", "United Arab Emirates"],
+    country_name: ["Egypt", "Jordan", "Turkey", "Cuba", "U.A.E"],
   },
   {
     continent: "North America",

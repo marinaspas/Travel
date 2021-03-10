@@ -12,7 +12,7 @@ function Destinations() {
       </div>
       <div className="destinations-wrapper">
         <h2 className="subheading">Popular Destinations you need to visit</h2>
-        <ul className="destinations-list">
+        <ul className="destination-card">
           <DestinationCard
             src="./images/destination-newyork.jpg"
             text="New York"
@@ -52,10 +52,14 @@ function Destinations() {
             return (
               <li key={index}>
                 <div className="dest-card">
-                  <p>{destination.continent}</p>
-                  <ul>
+                  <h3 className="cont-name">{destination.continent}</h3>
+                  <ul className="countries-list">
                     {destination.country_name.map((place, index) => {
-                      return <li key={index}>{place}</li>;
+                      return (
+                        <li key={index}>
+                          <span>{place}</span>
+                        </li>
+                      );
                     })}
                   </ul>
                 </div>
