@@ -1,7 +1,7 @@
 .destinations-hero {
   background: url("../../assets/destinations-bg.jpg");
-  min-height: 60vh;
-  background-position: center;
+  min-height: 70vh;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -103,7 +103,6 @@
 }
 @media screen and (max-width: 812px) {
   .destinations-hero {
-    background: url("../../assets/destinations-mobile-bg.jpg");
     min-height: 38vh;
     background-position: center;
     background-size: cover;
@@ -137,7 +136,6 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .destinations-hero {
-    background: url("../../assets/destinations-mobile-bg.jpg");
     min-height: 70vh;
     background-position: center;
     background-size: cover;
