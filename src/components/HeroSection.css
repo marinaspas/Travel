@@ -38,7 +38,7 @@ video {
 /* landscape Ipad styles */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   .hero-container {
-    background: url("../assets/sf-girl.png");
+    background: url("../assets/home-hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ video {
 }
 @media screen and (max-width: 1023px) {
   .hero-container {
-    background: url("../assets/sf-girl.png");
+    background: url("../assets/home-hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
