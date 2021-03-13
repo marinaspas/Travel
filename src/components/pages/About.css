@@ -24,6 +24,13 @@
   height: auto;
 }
 @media screen and (max-width: 812px) {
+  .about-hero {
+    background: url("../../assets/about-mob-bg.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .intro {
     flex-direction: column;
     max-width: none;
@@ -39,9 +46,6 @@
     padding: 10px 30px;
     margin-bottom: 10px;
   }
-  .about-hero {
-    min-height: 50vh;
-  }
   .about .subheading {
     padding: 20px 15px;
   }
@@ -51,6 +55,13 @@
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .about-hero {
+    background: url("../../assets/about-tablet-bg.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .intro {
     max-width: none;
   }

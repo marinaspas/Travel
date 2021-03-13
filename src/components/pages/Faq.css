@@ -62,3 +62,21 @@
   height: auto;
   opacity: 1;
 }
+@media screen and (max-width: 812px) {
+  .faq-hero {
+    background: url("../../assets/faq-mob-bg.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .faq-hero {
+    background: url("../../assets/faq-tablet-bg.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
