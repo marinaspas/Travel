@@ -28,13 +28,13 @@
   position: relative;
   font-size: 20px;
   padding-right: 80px;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease-out;
 }
 .faqs .faq .faq-answer {
   opacity: 0;
-  max-height: 0;
+  height: 0px;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(1, 0, 1, 0);
+  transition: all 0.3s cubic-bezier(1, 0, 1, 0);
 }
 
 .faqs .faq .faq-question::after {
@@ -49,7 +49,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: all 0.4s cubic-bezier(0, 1, 0, 1);
+  transition: all 0.3s cubic-bezier(0, 1, 0, 1);
 }
 .faqs .faq.open .faq-question {
   margin-bottom: 15px;

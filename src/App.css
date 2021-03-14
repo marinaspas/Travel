@@ -12,35 +12,7 @@
   color: #fff;
   opacity: 0.8;
 }
-
-.services {
-  /* background-image: url("/images/img-2.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
-  /* background-image: url("/images/img-1.jpg"); */
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  /* background-image: url("/images/img-8.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 .container {
-  /* max-width: 1120px; */
   display: flex;
   justify-content: center;
 }
@@ -57,7 +29,6 @@
 }
 .subheading {
   text-align: center;
-  /* font-family: 'Dancing Script', cursive, sans-serif; */
   font-size: 35px;
   letter-spacing: 2px;
   font-weight: 100;
