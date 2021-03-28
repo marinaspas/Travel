@@ -4,3 +4,4 @@
 2. npm i - to install all the dependencies 
 3. yarn start - to start the local server 
 
+this project is hosted here:  https://trvl-blog.netlify.app/
